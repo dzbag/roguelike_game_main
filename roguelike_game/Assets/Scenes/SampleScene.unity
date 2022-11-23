@@ -208,7 +208,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!1 &449036976
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &449036980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbEyes: {fileID: 449036979}
+  rbPlayer: {fileID: 2104128865}
 --- !u!1 &515031774
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +384,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &515031777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbEyes: {fileID: 515031776}
+  rbPlayer: {fileID: 2104128865}
 --- !u!212 &515031778
 SpriteRenderer:
   m_ObjectHideFlags: 0
